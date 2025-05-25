@@ -6,8 +6,8 @@ This project analyzes Airbnb-style real estate sales and amenities data across z
 
 ## 📁 Folder Structure
 airbnb-data-analysis-review1/
-├── data/
-│   ├── market_analysis_2019.csv
+ - ├── data/
+ - │   ├── market_analysis_2019.csv
 │   ├── sales_properties_total_zipcode_92252.csv
 │   ├── sales_properties_total_zipcode_92284.csv
 │   ├── sales_properties_total_zipcode_92314.csv
