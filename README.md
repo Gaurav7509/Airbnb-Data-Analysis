@@ -21,8 +21,8 @@ This project conducts a comprehensive **Airbnb data analysis and visualization**
 - Create initial and interactive visual representations highlighting findings.
 - Develop dashboards and apps for dynamic exploration.
 
----
 
+```markdown
 ## 🗂️ Repository Structure 
 
 
