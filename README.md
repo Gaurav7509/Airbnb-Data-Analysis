@@ -35,3 +35,14 @@ Saved to the `plots/` folder:
 pip install -r requirements.txt
 cd notebooks
 jupyter notebook airbnb_eda_review1.ipynb
+
+---
+
+## 📦 `requirements.txt`
+
+```txt
+pandas
+matplotlib
+seaborn
+plotly
+jupyter
