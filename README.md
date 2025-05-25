@@ -33,6 +33,13 @@ This project conducts a comprehensive **Airbnb data analysis and visualization**
 - Market analysis summaries
 
 ---
+### 📁 Dataset Descriptions
+
+- **market_analysis_2019.csv**: Summary of market trends including median price and volume per ZIP.
+- **amenities.csv**: Contains counts of amenities like pool, WiFi, AC per ZIP.
+- **sales_properties_with_pool_92252.csv**: Sales data filtered by ZIP and properties with a pool.
+
+---
 
 ## 🔧 Data Cleaning & Preprocessing
 
@@ -50,6 +57,8 @@ This project conducts a comprehensive **Airbnb data analysis and visualization**
 - One-hot encoding for categorical variables (e.g., room type, amenities)
 - Aggregated location-based metrics for neighborhood insights
 - Seasonal flags added for temporal trend analysis
+- Created `price_per_sqft` from price and area to standardize comparisons.
+- Created binary flags for amenity presence to assist in correlation analysis.
 
 ---
 
@@ -69,6 +78,9 @@ This project conducts a comprehensive **Airbnb data analysis and visualization**
 - Certain ZIP codes (e.g., 92284) have higher listing densities and demand
 - Seasonal fluctuations strongly impact availability and pricing patterns
 - Luxury amenities cause significant price variations compared to basic ones
+- Listings in ZIP 92284 have the highest average price and pool availability.
+- Properties with pools tend to have 15–20% higher average sales price.
+- The majority of sales occurred in Q2, indicating a seasonal trend.
 
 ---
 
@@ -79,6 +91,20 @@ This project conducts a comprehensive **Airbnb data analysis and visualization**
 - Heatmaps showing seasonal availability trends
 - Correlation heatmaps to identify feature relationships
 - Dynamic dashboards created in Power BI / Tableau for comprehensive views
+
+---
+## 🧼 Outlier Treatment
+Used IQR method to remove listings with price 1.5x beyond Q1/Q3 thresholds.
+
+---
+## 🧾 Data Dictionary
+
+| Column Name         | Description                                | Type       |
+|---------------------|---------------------------------------------|------------|
+| `zip_code`          | ZIP code where property is located          | Categorical|
+| `price`             | Sale price of the listing                   | Numeric    |
+| `has_pool`          | Whether the listing has a pool (1/0)        | Boolean    |
+| `listing_date`      | Date when the listing was added             | Date       |
 
 ---
 
