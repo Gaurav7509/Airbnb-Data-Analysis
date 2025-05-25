@@ -26,6 +26,7 @@ This project conducts a comprehensive **Airbnb data analysis and visualization**
 ## 🗂️ Repository Structure
 
 ---
+```plaintext
 
 airbnb-data-analysis/
 ├── data/               # Raw and processed datasets (CSV, JSON)
