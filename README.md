@@ -115,4 +115,4 @@ Used IQR method to remove listings with price 1.5x beyond Q1/Q3 thresholds.
    ```bash
    git clone https://github.com/Gaurav7509/Airbnb-Data-Analysis.git
    cd Airbnb-Data-Analysis
-
+   4. Run the notebook: 
