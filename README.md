@@ -8,22 +8,22 @@ This project analyzes Airbnb-style real estate sales and amenities data across z
 airbnb-data-analysis-review1/
  - ├── data/
  - │   ├── market_analysis_2019.csv
-│   ├── sales_properties_total_zipcode_92252.csv
-│   ├── sales_properties_total_zipcode_92284.csv
-│   ├── sales_properties_total_zipcode_92314.csv
-│   ├── sales_properties_total_zipcode_92315.csv
-│   ├── sales_properties_with_pool_zipcode_92252.csv
-│   ├── sales_properties_with_pool_zipcode_92284.csv
-│   └── amenities.csv
-├── notebooks/
-│   └── airbnb_eda_review1.ipynb
-├── plots/
-│   ├── price_distribution.png
-│   └── listings_map.html
-├── presentation/
-│   └── airbnb_review1_presentation.pptx (you’ll upload after generation)
-├── README.md
-├── requirements.txt
+ - │   ├── sales_properties_total_zipcode_92252.csv
+ - │   ├── sales_properties_total_zipcode_92284.csv
+ - │   ├── sales_properties_total_zipcode_92314.csv
+ - │   ├── sales_properties_total_zipcode_92315.csv
+ - │   ├── sales_properties_with_pool_zipcode_92252.csv
+ - │   ├── sales_properties_with_pool_zipcode_92284.csv
+ - │   └── amenities.csv
+ - ├── notebooks/
+ - │   └── airbnb_eda_review1.ipynb
+ - ├── plots/
+ - │   ├── price_distribution.png
+ - │   └── listings_map.html
+ - ├── presentation/
+ - │   └── airbnb_review1_presentation.pptx (you’ll upload after generation)
+ - ├── README.md
+ - ├── requirements.txt
 
 
 
@@ -59,6 +59,7 @@ jupyter notebook airbnb_eda_review1.ipynb
 ---
 
 ## 📦 `requirements.txt`
+
 
 ```txt
 pandas
