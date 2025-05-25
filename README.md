@@ -23,22 +23,7 @@ This project conducts a comprehensive **Airbnb data analysis and visualization**
 
 ---
 
-## 🗂️ Repository Structure
 
----
-```plaintext
-
-airbnb-data-analysis/
-├── data/               # Raw and processed datasets (CSV, JSON)
-├── notebooks/          # Jupyter notebooks for exploratory data analysis (EDA) and modeling
-├── plots/              # Generated plots, charts, and visualization outputs
-├── presentation/       # Final presentation files (e.g., PPT, PDF)
-├── streamlit_app/      # (Optional) Streamlit web app source code
-├── README.md           # Project overview, instructions, and documentation
-├── requirements.txt    # Python dependencies and package list
-
----
----
 
 ## 🧪 Datasets Used
 
