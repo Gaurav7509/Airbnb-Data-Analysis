@@ -3,10 +3,10 @@
 ![Airbnb Banner](https://github.com/iambitttu/Airbnb-Analysis/assets/117813323/07fcc385-d461-46ce-b938-ca8251b02641)
 
 ---
-
 ## 📖 Project Overview
 
-This project conducts a comprehensive **Airbnb data analysis and visualization** leveraging various datasets, including Airbnb listings, amenities, and sales data across California ZIP codes. The goal is to extract actionable insights about pricing, availability, and regional trends using advanced data cleaning, feature engineering, and visualization techniques.
+This project conducts a comprehensive **Airbnb data analysis and visualization** leveraging datasets from various California ZIP codes. The primary objective is to extract **actionable insights** about pricing, amenities, seasonal patterns, and location-based trends using advanced EDA and interactive visual tools.
+
 
 ---
 
