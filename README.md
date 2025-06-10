@@ -106,6 +106,25 @@ Used IQR method to remove listings with price 1.5x beyond Q1/Q3 thresholds.
 | `has_pool`          | Whether the listing has a pool (1/0)        | Boolean    |
 | `listing_date`      | Date when the listing was added             | Date       |
 
+
+---
+
+## 📚 Storytelling with Data
+
+Every Airbnb listing tells a story — of traveler expectations, host strategies, and market dynamics. Through this project, we uncovered compelling narratives embedded in the data that help both **hosts** and **travelers** make informed decisions.
+
+- 🌴 **The Pool Premium**: Imagine two nearly identical homes in California — same size, same location — but one has a pool. Our analysis shows that this simple amenity can increase listing prices by up to **20%**. This trend is particularly strong in warmer ZIP codes like *92284*, where travelers seek leisure-ready properties.
+
+- 🗺️ **The Tale of Two ZIP Codes**: Listings in ZIP **92284** consistently stood out — commanding **higher prices**, boasting **better amenities**, and showing **stronger seasonal demand**. In contrast, other ZIPs showed less consistency, indicating more volatile or niche markets.
+
+- 📆 **Seasons Matter**: The majority of bookings and sales occur in **Q2**, reflecting the travel season peak in California. Hosts listing in early spring can capitalize on this surge, while travelers booking off-season might snag better deals.
+
+- 💰 **Luxury vs. Basic**: Listings offering luxury amenities (e.g., hot tubs, modern kitchens, fast WiFi) had significantly **higher price-per-night rates**. These amenities weren’t just extras — they were **value drivers**, influencing traveler preferences and listing visibility.
+
+- 📉 **Outliers Tell a Story Too**: While most listings followed predictable patterns, a few outliers — either overpriced or under-equipped — revealed misaligned market expectations. Cleaning and analyzing these helped sharpen our insights and remove bias.
+
+By merging **data science techniques** with **human storytelling**, this project doesn't just crunch numbers — it **illuminates patterns, behaviors, and decisions** that shape the Airbnb ecosystem in California.
+
 ---
 
 ## 🚀 How to Run
